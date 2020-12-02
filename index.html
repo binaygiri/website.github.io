@@ -203,6 +203,16 @@
 		    			<span id="spcomments" class="font-weight-bold text-danger"></span>
 		    		</div>
 		    		<button type="submit" name="submit" class="btn btn-success">Submit</button>
+				<script type="text/javascript">
+		    			
+		    		if(isset('submit'))
+		    		{
+		    			alert('insert successfull');
+					    window.location ='<?=basename($_SERVER['PHP_SELF'])?>';
+					    window.location ='index.php';
+		    		}	
+					
+                    </script>
 	    	   </form>
 	    	</div>
 	    </div>
